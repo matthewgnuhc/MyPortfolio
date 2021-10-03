@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("/img/home-picture03.png") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -253,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -278,10 +278,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 #hero .social-links {
-  margin-top: 30px;
+  margin-top: 15px;
 }
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 40px;
   display: inline-block;
   color: #45505b;
   line-height: 1;
